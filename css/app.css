@@ -1,0 +1,79 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto Regular', arial;
+
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.todo {
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.todo__header {
+    border-bottom: 1px solid #a5a5a594;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.list__item {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.list__item:hover .list__item-del {
+    opacity: 1;
+    transition: 0.2s all ease-in;
+}
+
+.todo__list {
+    padding: 0;
+}
+
+.txt {
+    width: 80%;
+}
+
+.list__item-del {
+    opacity: 0;
+    height: 100%;
+    transition: 0.3s all ease-in;
+    cursor: pointer;
+
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.txt-done {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.7);
+}
+.copy
+{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+}
+
+

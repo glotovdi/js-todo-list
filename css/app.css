@@ -69,11 +69,22 @@ html, body {
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.7);
 }
-.copy
+.icons
 {
     position: fixed;
     bottom:10px;
     right:10px;
+}
+.icons__item
+{
+    display: flex;
+    margin-bottom: 5px;
+}
+.item__img
+{
+    width:25px;
+    height:25px;
+    margin-right: 5px;
 }
 
 

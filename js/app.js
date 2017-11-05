@@ -4,7 +4,9 @@ var list=document.getElementById("list");
 
 form.onsubmit= function () {
     var input=document.getElementById("input")
-    render(input.value);
+    if (input.value) {
+        render(input.value);
+    }
     input.value="";
     return false;
 }
